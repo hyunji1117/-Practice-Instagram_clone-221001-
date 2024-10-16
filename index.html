@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <link href="style.css" rel="stylesheet">
+        </head>
+        <body>
+            <style>
+                #profile {
+                    width: 150px;
+                    height: 150px;
+                }
+                #profilephoto {
+                    width: 100%;
+                    height: 100%;
+                    
+                    object-fit: cover;
+
+                    border: 0.2px rgb(165, 161, 161) solid;
+                    border-radius: 70%;
+                }
+                h2 {
+                    font-size: 28px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, statistic_numns-serif;
+                    font-weight: lighter;
+                }
+                p {
+                    text-align: center;
+                }
+                #warp {
+                    overflow: hidden;
+                    padding-top: 10px;
+                    float:none;
+                }
+                .highlight{
+                    width: 56px;
+                    height: 56px;
+                }
+                #hp {
+                    width: 100%;
+                    height: 100%;
+
+                    border: 0.2px rgb(165, 161, 161) solid;
+                    border-radius: 50%;
+
+                    object-fit: cover;
+
+                }
+                #hp_imoji{
+                    text-align:initial;
+                }
+                .thumbnail_grid {
+                    display: grid;
+                    grid-template-columns: 1fr 1fr 1fr;
+                }
+                .thumbnail {
+                    width: 100%;
+                }
+                #statistic area {
+                    display: grid;
+                    grid-template-columns: 1fr 1fr 1fr;
+
+                    border-top: 0px solid gray;
+                    border-bottom: 0px solid gray;
+
+                    margin-bottom: 100px;
+                    margin-top: 100px;
+                }
+                .statistic_num {
+                    text-align: 
+                }
+                #status_bar {
+                    display: grid;
+                    grid-template-columns: 1fr 1fr 1fr;
+
+                    border-top: 0.2px solid gray;
+
+                    margin-bottom: 100px;
+                    margin-top: 100px;
+                }
+                .sb {
+                    text-align: center;
+                }
+    
+            </style>
+
+            <!--상단바-->
+            <div>
+                <img src="/Users/ddeok/Downloads/image/Instagram_logo_word.png.png"
+                width="103" height="29">
+                <input type="search" value="검색">
+            </div><br><hr>
+
+            <!--프로필 영역-->
+            <div>
+                <div id="profile">
+                    <img src="/Users/ddeok/Downloads/image/thumbnails/Big Bathroom.png.png"
+                    id="profilephoto">
+                </div>
+                <div>
+                    <h2>
+                        ddeok15
+                    </h2>
+                    <div class="profileetc">
+                        <button>
+                            프로필 편집
+                        </button>
+                        <input type="button">
+                    </div>
+                </div>
+            </div><br>
+
+            <!--통계 영역-->
+            <div id="statistic area">
+                <div class="statistic_num">
+                    게시물
+                    <strong>133</strong>
+                </div>
+                <div class="statistic_num">
+                    팔로워
+                    <strong>408</strong>
+                </div>
+                <div class="statistic_num">
+                    팔로우
+                    <strong>189</strong>
+                </div>
+            </div><br>
+
+            <!--프로필 소개-->
+            <div>
+                <div>
+                <strong>Evelyn Kim  김현지</strong><br>
+                </div>
+                <div>
+                engineer<br>
+                <a href="https://github.com/ddeok15">github.com/ddeok15</a>
+                </div>
+            </div><br><hr>
+
+            <!--Highlight 들어갈 자리-->
+            <div>
+                <div class="highlight">
+                    <div>
+                        <img src="/Users/ddeok/Downloads/image/instagram_highlight/cleaning wardrobe.jpg.jpg"
+                        id="hp">
+                    </div>
+                    <div id="hp_imoji">
+                        😍
+                    </div>
+                </div>
+                <div class="highlight">
+                    <div>
+                        <img src="/Users/ddeok/Downloads/image/instagram_highlight/dress area.jpg.jpg"
+                        id="hp">
+                    </div>
+                    <div id="hp_imoji">
+                        😎
+                    </div>
+                </div>
+                <div class="highlight">
+                    <div>
+                        <img src="/Users/ddeok/Downloads/image/instagram_highlight/hall area.jpg.jpg"
+                        id="hp">
+                    </div>
+                    <div id="hp_imoji">
+                        😆
+                    </div>
+                </div>
+                <div class="highlight">
+                    <div>
+                        <img src="/Users/ddeok/Downloads/image/instagram_highlight/organise laundry.png.png"
+                        id="hp">
+                    </div>
+                    <div id="hp_imoji">
+                        😈
+                    </div>
+                </div>
+            </div><br>
+
+            <!--상태 표시줄-->
+            <div id="status_bar">
+                <div class="sb">
+                    아이콘
+                    게시물
+                </div>
+                <div class="sb">
+                    아이콘
+                    저장됨
+                </div>
+                <div class="sb">
+                    아이콘
+                    태그됨
+                </div>
+            </div>
+
+            <!--썸네일 사진 9장-->
+            <div>
+                <div class="thumbnail_grid">
+                    <img src="/Users/ddeok/Downloads/image/thumbnails/bathroom in vacation.jpg.jpg"
+                    width="320" class="thumbnail">
+                    <img src="/Users/ddeok/Downloads/image/thumbnails/bathroom lundry area.jpg.jpg"
+                    width="320" class="thumbnail">
+                    <img src="/Users/ddeok/Downloads/image/thumbnails/bathroom.jpg.jpg"
+                    width="320" class="thumbnail"><br>
+                </div>
+                <div class="thumbnail_grid">
+                    <img src="/Users/ddeok/Downloads/image/thumbnails/Big Bathroom.png.png"
+                    width="320" class="thumbnail">
+                    <img src="/Users/ddeok/Downloads/image/thumbnails/big window in bathroom.jpg.jpg"
+                    width="320" class="thumbnail">
+                    <img src="/Users/ddeok/Downloads/image/thumbnails/seperate area bathroom.png.png"
+                    width="320" class="thumbnail"><br>
+                </div>
+                <div class="thumbnail_grid">
+                    <img src="/Users/ddeok/Downloads/image/thumbnails/Small Bathroom.png"
+                    width="320" class="thumbnail">
+                    <img src="/Users/ddeok/Downloads/image/thumbnails/Very Small Bathroom.jpg"
+                    width="320" class="thumbnail">
+                    <img src="/Users/ddeok/Downloads/image/thumbnails/욕실 디자인.png"
+                    width="320" class="thumbnail"><br>
+                </div>
+            </div>
+
+
+
+
+        </body>
+
+
+
+
+
+
+    </html>
